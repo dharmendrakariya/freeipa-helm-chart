@@ -20,8 +20,8 @@ args:
   nohostdns: true
   nontp: true
   setupdns: false
-  autoforwarders: true
-  allowzoneoverlap: true
+  autoforwarders: true # if setupdns is true this will be applicable
+  allowzoneoverlap: true # if setupdns is true this will be applicable
   sshtrustdns: false
 
 volumestorage: 1Gi 
